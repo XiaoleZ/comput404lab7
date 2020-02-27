@@ -1,0 +1,39 @@
+Question 1: How are Flask and Django different? What does Django provide for you that Flask does not?
+
++ Django is a full-stack web framework, but Flask is a micro and lightweight web framework. 
++ Django has all the funtionalities, but Flask is a tool for full-stack development.
+
+Question 2: What does REST stand for? When I say something is RESTful, what does that mean?
+
++ Representational State Transfer.
++ a RESTful system is any network that fulfills the Fielding Constraints. 
+A RESTful system is meant to be flexible for different use cases, scalable to accommodate a large number of users and components, and adaptable over time.
+
+Question 3: What does CRUD stand for? For each letter in CRUD, give the associated HTTP method.
+
++ create, read, update, and delete
++ create :PUT/POST
++ read: GET
++ update: PUT/POST/PATCH
++ delete: DELETE
+
+Question 4: What do HTTP 1XX Status Codes mean? HTTP 2xx? HTTP 3xx? HTTP 4xx? HTTP 5xx?
+
++ 1xx Informational response
++ 2xx Success
++ 3xx Redirection
++ 4xx Client errors
++ 5xx Server errors
+
+Question 5: What is an XSS attack? Provide one way a site can be vulneratble to an XSS attack.
+
++ Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted websites. 
++ A web page or web application is vulnerable to XSS if it uses unsanitized user input in the output that it generates. (such as in a form) XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user.
+
+
+Question 6: What does CORS stand for? What situation in web application development will you need to implement CORS?
+
++ Cross-origin resource sharing (CORS) 
++ Servers will allow resources from external origins (say, a web page) to read their assets. With CORS, a server can specify who can access its assets and which HTTP request methods are allowed from external resources.
+
+reference: https://owasp.org/www-community/attacks/xss/
